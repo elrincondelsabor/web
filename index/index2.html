@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Menú | FastLunch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Nunito', sans-serif;
+            background-color: #fbeaff;
+            color: #4a004e;
+        }
+
+        header {
+            background-color: #800080;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #99004d;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .menu-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 30px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .menu-item {
+            background-color: white;
+            border: 2px solid #d1a3d7;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .menu-item h3 {
+            color: #800080;
+            margin-top: 10px;
+        }
+
+        .price {
+            color: #99004d;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #4a004e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .menu-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>El Sabor del Rincon</h1>
+        <p>EL SABOR QUE INSPIRA</p>
+    </header>
+
+    <nav> <a href="PROYECTO RESTAURANTE.html">inicio </a>
+    </nav>
+
+    <h2>🍽️ Nuestro Menú</h2>
+
+<section class="menu-container">
+        <div class="menu-item">
+            <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80" alt="Hamburguesa">
+            <h3>Hamburguesa Carnivora</h3>
+          <blockquote>
+            <p><em><strong>Carne de res, tocino, queso cheddar, salsa barbacoa,</strong></em></p>
+          </blockquote>
+          <blockquote>
+            <p><strong>&nbsp;aros de cebolla&nbsp; &nbsp;</strong></p>
+          </blockquote>
+<p class="price">Q.35.00</p>
+      </div>
+
+        <div class="menu-item"> <img src="paapas.jpg" width="225" height="225" alt=""/>
+            <h3>Papas Locas</h3>
+          <p><em><strong>Papas grandes, carne de res molida, tocino,&nbsp;</strong></em></p>
+          <p><em><strong>queso mozzarella y queso amarillo.&nbsp;&nbsp;</strong></em></p>
+<p class="price">Q.25.00</p>
+      </div>
+
+        <div class="menu-item"> <img src="pizza.jpg" width="300" height="200" alt=""/>
+            <h3>Pizza Supreme</h3>
+          <p><em><strong>Base crujiente con pepperoni ,queso mozzarella,champiñones</strong></em></p>
+          <p><em><strong>salasa de tomat, aceitunas .</strong></em></p>
+<p class="price">Q.25.00/Q.50.00</p>
+      </div>
+
+        <div class="menu-item"> <img src="crepas.jpg" width="275" height="183" alt=""/>
+            <h3>Crepas Dulces</h3>
+          <p><em><strong>Rellenas de nutella o topping de fresa y caramel, rellenas de fruta natural, fresa,mora,banano y melocoton.&nbsp; &nbsp; &nbsp;</strong></em></p>
+<p class="price">Q.25.00&nbsp;</p>
+      </div>
+
+        <div class="menu-item"> <img src="burritos.jpg" width="640" height="360" alt=""/>
+            <h3>Burritos samaritanos</h3>
+          <p><em><strong> Carne de res, pollo o cerdo, queso, verduras</strong></em></p>
+          <p><em><strong>&nbsp;y salsas especiales&nbsp;&nbsp;</strong></em></p>
+<p class="price">Q.25.00</p>
+      </div>
+
+        <div class="menu-item"> <img src="licuados.png" width="1200" height="800" alt=""/>
+            <h3>Licuados</h3>
+          <p><em><strong>De frutas naturales con leche o agua.</strong></em></p>
+          <p><em><strong>De fresa, mora, banano, mango y frutas&nbsp; &nbsp;</strong></em></p>
+<p class="price">Q.15.00</p>
+      </div>
+    </section>
+
+    <footer>
+    &copy; 2025 El rincon del sabor&nbsp; - Todos los derechos reservados</footer>
+
+</body>
+</html>
+
